@@ -1,5 +1,5 @@
-# Real-time Yolov3 Object Detection for Webcam and Video (using Tensorflow)
-https://github.com/theAIGuysCode/Object-Detection-API/raw/master/detections/detection.jpg
+# Real-time Yolov3 Object Detection for Webcam (using Tensorflow)
+
 ![alt text](https://github.com/theAIGuysCode/Object-Detection-API/raw/master/detections/detection.jpg)
 
 ## Getting started
@@ -51,6 +51,10 @@ wget https://pjreddie.com/media/files/yolov3-tiny.weights -O weights/yolov3-tiny
 
 For Windows: You can download the yolov3 weights by clicking here and yolov3-tiny here then save them to the weights folder.
 
+### Using Custom trained weights
+Learn How To Train Custom YOLOV3 Weights Here: https://www.youtube.com/watch?v=zJDUhGL26iU
+
+Add your custom weights file to weights folder and your custom .names file into data/labels folder.
 ### Saving your yolov3 weights as a TensorFlow model.
 Load the weights using ``` load_weights.py ``` script. This will convert the yolov3 weights into TensorFlow .ckpt model files!
 
